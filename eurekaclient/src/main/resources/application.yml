@@ -1,0 +1,17 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+      prefer-ip-address: true
+
+# localhost:8010/student/findAll get
+# localhost:8010/student/findById/1 get
+# localhost:8010/student/update post
+# localhost:8010/student/save put
+# localhost:8010/student/delete delete

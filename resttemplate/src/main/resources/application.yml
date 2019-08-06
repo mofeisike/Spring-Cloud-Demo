@@ -1,0 +1,7 @@
+server:
+  port: 8009
+
+# localhost:8009/rest/findAll
+# localhost:8009/rest/findAll2
+# localhost:8009/rest/save
+# localhost:8009/rest/save2
